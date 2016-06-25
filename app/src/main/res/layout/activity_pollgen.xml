@@ -46,7 +46,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proceed now"
+        android:text="Proceed now!"
         android:id="@+id/buttonProceed"
         android:layout_gravity="center_horizontal"
         android:onClick="generateViews"
