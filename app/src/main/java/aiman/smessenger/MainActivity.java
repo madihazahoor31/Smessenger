@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(
                 300,
-                100
+                200
         );
         EditText ed = (EditText)  findViewById(R.id.val);
         int i= Integer.parseInt(ed.getText().toString());
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             if(count==0) {
                 for (int var = 0; var < i; var++) {
                     EditText bt = new EditText(this);
-                    bt.setHint("Enter OPtion");
+                    bt.setHint("please Enter OPtion");
                     bt.setLayoutParams(params);
                     layout.addView(bt);
                 }
